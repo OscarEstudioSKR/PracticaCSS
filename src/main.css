@@ -213,6 +213,15 @@ p{
         margin-top: 10%;
         margin-bottom: 10%;
     }
+
+    .main-section main{
+        min-width: 90%;
+        align-items: center;
+    }
+    .main-section figure{
+        display: none;
+    }
+    
     footer{
         text-align: center;
         width: 100%;
