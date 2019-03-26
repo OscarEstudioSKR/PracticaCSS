@@ -188,7 +188,13 @@ footer nav a img{
 
 .button-cursor-select:hover{
     cursor: pointer;
-    filter: brightness(0.9);
+    filter: brightness(1.2);
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    color: var(--color1);
+    font-weight: bold;
 }
 
 h1{
