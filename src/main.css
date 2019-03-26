@@ -36,8 +36,6 @@ header{
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 8%;
-    min-height: 60px;
     background: linear-gradient(var(--color1), var(--color2));
     color: var(--color0);
 }
@@ -45,16 +43,20 @@ header{
 header h1{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 80%;
     width: 40%;
+    min-width: 300px;
     font-size: 2em;
     color: var(--color5);
     font-weight: bold;
     margin: 0;
+    min-height: 40px;
     
 }
 header h1 img{
-    margin: 7%;
+    margin: 3%;
+    min-width: 40px;
 }
 
 header nav{
@@ -62,6 +64,7 @@ header nav{
     flex-grow: 1;
     padding-right: 0.5%;
     height: 100%;
+    
     width: 59%;
     
 }
@@ -70,6 +73,7 @@ header nav a{
     width: 25%;
     margin: auto;
     height: 60%;
+    min-height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +109,7 @@ header nav a{
 
 .main-section main article{
     padding: 2%;
-    border-bottom: 1px solid #486a9f;
+    border-bottom: 1px solid #023c52;
     background: var(--color0);
 }
 
@@ -191,3 +195,9 @@ p{
 
 /* ELEMENTOS RESPONSIVE */
 
+@media(max-width: 750px){
+    header h1 img{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
