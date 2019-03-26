@@ -16,7 +16,6 @@
   }
 
 
-
 /* ESTRUCTURA PRINCIPAL */
 
 body{
@@ -24,7 +23,6 @@ body{
     height: 100vh;
     margin: auto;
     font-family: arial-coolvetica;
-    
 }
 
 
@@ -67,8 +65,8 @@ header h1{
     font-weight: bold;
     margin: 0;
     min-height: 40px;
-    
 }
+
 header h1 img{
     margin: 3%;
     min-width: 40px;
@@ -82,10 +80,8 @@ header nav{
         -ms-flex-positive: 1;
             flex-grow: 1;
     padding-right: 0.5%;
-    height: 100%;
-    
-    width: 59%;
-    
+    height: 100%; 
+    width: 59%; 
 }
 
 header nav a{
@@ -106,7 +102,6 @@ header nav a{
     background:linear-gradient( var(--color2), var(--color1));
     border-right: 1px solid var(--color3);
 }
-
 
 
 
@@ -174,7 +169,6 @@ header nav a{
 
 
 
-
 /* FOOTER */
 
 footer{
@@ -219,6 +213,7 @@ footer{
         -ms-flex-pack: center;
             justify-content: center;
 }
+
 .footer-nav-1 a{
     padding-right: 2%;
     border-right: 1px solid var(--color4);
@@ -226,7 +221,6 @@ footer{
 
 footer nav a{
     margin: 1%;
-    
 }
 
 footer nav a img{
@@ -261,7 +255,6 @@ p{
             filter: opacity(0.8);
     text-align: justify;
 }
-
 
 
 
