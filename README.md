@@ -1,8 +1,6 @@
 
 PracticaCSS
 -
-Realizada por Oscar Aparisi Sancho
--
 Enlace de la web: https://oscarestudioskr.github.io/PracticaCSS/
 
 --

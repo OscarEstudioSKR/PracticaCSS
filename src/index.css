@@ -16,6 +16,7 @@
   }
 
 
+
 /* ESTRUCTURA PRINCIPAL */
 
 body{
@@ -24,6 +25,7 @@ body{
     margin: auto;
     font-family: arial-coolvetica;
 }
+
 
 
 /* HEADER */
@@ -48,7 +50,7 @@ header h1{
     color: var(--color5);
     font-weight: bold;
     margin: 0;
-    min-height: 40px; 
+    min-height: 40px;
 }
 
 header h1 img{
@@ -61,7 +63,7 @@ header nav{
     flex-grow: 1;
     padding-right: 0.5%;
     height: 100%;
-    width: 59%;
+    width: 59%; 
 }
 
 header nav a{
@@ -166,7 +168,7 @@ footer{
 }
 
 footer nav a{
-    margin: 1%;
+    margin: 1%; 
 }
 
 footer nav a img{
@@ -215,6 +217,7 @@ p{
         min-width: 90%;
         align-items: center;
     }
+
     .main-section figure{
         display: none;
     }
@@ -226,6 +229,7 @@ p{
         align-items: center;
         justify-content: center;
     }
+    
     .footer-nav-1{
         width: 90%;
         justify-content: center; 
