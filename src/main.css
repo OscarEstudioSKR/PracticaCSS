@@ -2,38 +2,43 @@
 
 :root{
     --color0: #ffffff;
-    --color1: #113f67;
-    --color2: #38598b;
-    --color3: #a2a8d3;
-    --color4: #e7eaf6;
-
+    --color1: #002a3a;
+    --color2: #00384e;  
+    --color3: #38598b;
+    --color4: #a2a8d3;
+    --color5: #e7eaf6;
+    --color6: #325524;
 }
 
 @font-face {
     font-family: arial-coolvetica;
     src: url("../recurse/fonts/Arconr.otf");
   }
-  
+
+
 
 /* ESTRUCTURA PRINCIPAL */
 
 body{
-    width: 60%;
+    max-width: 1000px;
     height: 100vh;
     margin: auto;
     font-family: arial-coolvetica;
+    
 }
+
+
 
 /* HEADER */
 
 header{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    background: var(--color3);
-    background: linear-gradient(var(--color3), var(--color4));
+    height: 8%;
+    min-height: 60px;
+    background: linear-gradient(var(--color1), var(--color2));
     color: var(--color0);
 }
 
@@ -41,35 +46,46 @@ header h1{
     display: flex;
     align-items: center;
     height: 80%;
-    width: 30%;
+    width: 40%;
     font-size: 2em;
-    color: var(--color2);
+    color: var(--color5);
+    font-weight: bold;
+    margin: 0;
     
 }
 header h1 img{
-    margin-right: 7%;
+    margin: 7%;
 }
 
 header nav{
     display: flex;
-    width: 50%;
-    height: 50%;
-    font-weight: bold;
+    flex-grow: 1;
+    padding-right: 0.5%;
+    height: 100%;
+    width: 59%;
+    
 }
 
 header nav a{
     width: 25%;
-    height: 100%;
+    margin: auto;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--color3);
+    background:linear-gradient( var(--color2), var(--color1));
+    border-right: 1px solid var(--color3);
 }
+
+
+
 
 /* MAIN SECTION */
 
 .main-section{
-    min-height: 80%;
+    min-height: 82%;
+    margin: 0;
+    margin-bottom: 2%;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -87,10 +103,9 @@ header nav a{
     height: 100%;
 }
 
-
 .main-section main article{
     padding: 2%;
-    border-bottom: 1px solid var(--color3);
+    border-bottom: 1px solid #486a9f;
     background: var(--color0);
 }
 
@@ -103,7 +118,7 @@ header nav a{
 .article-complex hr{
     width: 5%;
     margin-right: 2%;
-    background: var(--color2);
+    background: var(--color6);
 }
 
 .main-section figure div{
@@ -117,6 +132,9 @@ header nav a{
     filter: opacity(70%);
 }
 
+
+
+
 /* FOOTER */
 
 footer{
@@ -124,30 +142,26 @@ footer{
     width: 100%;
     display: flex;
     padding-top: 2%;
-    background: var(--color4);
-    color: var(--color1);
-    
+    background: var(--color5);
+    color: var(--color2);
 }
 
 .footer-nav-1{
     margin-left: 5%;
     height: 100%;
-    width: 60%;
-    
-    
+    width: 60%; 
 }
+
 .footer-nav-2{
     height: 100%;
     width: 40%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 footer nav a{
     margin: 1%;
-    
 }
 
 footer nav a img{
@@ -174,3 +188,6 @@ p{
     filter: opacity(0.8);
     text-align: justify;
 }
+
+/* ELEMENTOS RESPONSIVE */
+
