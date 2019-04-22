@@ -26,7 +26,7 @@ header{
     background: #ff993e;
     width: 100%;
     height: 9%;
-    min-height: 50px;
+    min-height: 80px;
     padding-bottom: 1vh;    
 }
 
@@ -142,6 +142,7 @@ header nav a{
 footer{
     width: 100%;
     height: 10%;
+    min-height: 80px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -240,6 +241,7 @@ p{
         -webkit-box-pack: end;
             -ms-flex-pack: end;
                 justify-content: flex-end;  
+        min-height: 140px;
     }
 
     header h1{
@@ -256,6 +258,7 @@ p{
     }
 
     .main-section main{
+        margin-top: 2%;
         min-width: 90%;
         -webkit-box-align: center;
             -ms-flex-align: center;
@@ -280,21 +283,24 @@ p{
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+        min-height: 140px;
     }
     
     .footer-nav{
         width: 85%;
-        height: 40%;
+        height: 29.5%;
         margin: 0;
     }
 
     .footer-nav-1 a{
         width: 20%;
-        height: 8vh;
+        min-height: 41px;
+        height: 6vh;
     } 
 
     .footer-nav-2 a{
         width: 15%;
-        height: 8vh;
+        height: 6vh;
+        min-height: 41px;
     } 
 }

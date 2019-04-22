@@ -17,7 +17,7 @@ header{
     background: #ff993e;
     width: 100%;
     height: 9%;
-    min-height: 50px;
+    min-height: 80px;
     padding-bottom: 1vh;    
 }
 
@@ -183,7 +183,8 @@ p{
         min-height: 25vh;
         font-size: 0.9em;
         flex-direction: column;
-        justify-content: flex-end;  
+        justify-content: flex-end;
+        min-height: 140px; 
     }
 
     header h1{
@@ -200,8 +201,9 @@ p{
     }
 
     .main-section main{
+        margin-top: 2%;
         min-width: 90%;
-        align-items: center;
+        align-items: center;   
     }
 
     .main-section figure{
@@ -215,21 +217,24 @@ p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        min-height: 140px;
     }
     
     .footer-nav{
         width: 85%;
-        height: 40%;
+        height: 29.5%;
         margin: 0;
     }
 
     .footer-nav-1 a{
         width: 20%;
-        height: 8vh;
+        min-height: 41px;
+        height: 6vh;
     } 
 
     .footer-nav-2 a{
         width: 15%;
-        height: 8vh;
+        height: 6vh;
+        min-height: 41px;
     } 
 }
