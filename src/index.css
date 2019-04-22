@@ -16,7 +16,8 @@ header{
     align-items: center;
     background: #ff993e;
     width: 100%;
-    min-height: 10%;
+    height: 10%;
+    min-height: 50px;
      
 }
 
@@ -30,7 +31,7 @@ header h1{
     color: #1d1d1b;
     font-weight: bold;
     margin: 0 0 2% 5%;
-    min-height: 50px;
+    height: 100%;
 }
 
 header h1 img{
