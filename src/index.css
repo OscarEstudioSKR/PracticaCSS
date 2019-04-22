@@ -81,11 +81,15 @@ header nav a{
     margin: 0 0 0 5%;
     background: #008000;
 }
-
+.border-top-bottom{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
 .article-complex{
     display: flex;
     flex-flow: row nowrap;
     margin: 2%;
+    
 }
 
 .article-complex hr{
@@ -93,6 +97,7 @@ header nav a{
     margin-right: 20px;
     background: #d0d0d0;
     border: none;
+    margin-top: -12px;
 }
 
 .main-section figure div{
